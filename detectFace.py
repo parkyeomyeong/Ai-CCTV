@@ -29,6 +29,8 @@ class face_detecting:
         
         self.lasttime = time.time()# Set the variable to avoid calling lambda every moment Because we continue to detect face, taking pictures in a row
         self.lastname = ""#set the variaable the same reason
+        self.connection_model = awscommunication()
+        self.connection_model.subscribeMessage()
 
     def detect(self, frame):
         small_frame = cv2.resize(frame, (0, 0), fx=0.25, fy=0.25)
@@ -62,7 +64,7 @@ class face_detecting:
                 if time.time() - self.lasttime > 5 and name != self.lastname :
                     self.lasttime = time.time()
                     self.lastname = name
-                    awscommunication().publisingMessage("raspberry",name)#publishing to aws-iot-core(iot-Shadow)
+                    self.connection_model.publisingMessage("raspberry",name)#publishing to aws-iot-core(iot-Shadow)
                 
 
                 self.face_names.append(name)
