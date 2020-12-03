@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="디바이스 로그 조회"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start_date_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조회시작 날짜 선택" />
+        <Button
+            android:id="@+id/start_time_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조회시작 시간 선택" />
+
+        <TextView
+            android:id="@+id/textView_date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yyyy-mm-dd " />
+        <TextView
+            android:id="@+id/textView_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hh:mm" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/end_date_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조회종료 날짜 선택" />
+        <Button
+            android:id="@+id/end_time_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조회종료 시간 선택" />
+
+        <TextView
+            android:id="@+id/textView_date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yyyy-mm-dd " />
+        <TextView
+            android:id="@+id/textView_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hh:mm" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/log_start_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그 조회 시작" />
+    <ListView
+        android:id="@+id/logList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff99ccee"
+        android:textColor="#ff0000ff"
+        android:textSize="12dp"></ListView>
+    <TextView
+        android:id="@+id/message2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
