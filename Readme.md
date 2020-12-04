@@ -1,3 +1,2 @@
-웹캠, 라즈베리파이, flask 이용 웹 스트리밍
+웹캠, 라즈베리파이, 부저, AWS, Flask, Face_recognition, Flask를 이용한 Ai-CCTV(iot security system)
 
-flask web streaming using webcam and raspberry pi4 
