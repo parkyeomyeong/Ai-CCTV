@@ -5,13 +5,15 @@ Ai-CCTV(iot security system)
 
 - 사용 H/W, 라이브러리
 
-      -H/W : raspberry pi, Web cam, Buzzer
-      -library : Flask, Face_recognition etc...
-      -Cloud Server: AWS
+      - H/W : raspberry pi, Web cam, Buzzer
+      - library : Flask, Face_recognition etc...
+      - Cloud Server: AWS
       
 > 2. 기능
 - Raspberry Pi
-
+      *asd 
+            +asd
+            
       - Real time image(using Flask)
       - Data publishing(Person, Time imformation to aws)
       - Data Reciveing(for Buzzer control) 
