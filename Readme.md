@@ -3,11 +3,15 @@ Ai-CCTV(iot security system)
 > 1. 개요
 - 사용 H/W, 라이브러리
 
-     라즈베리파이, 웹캠, 부저, AWS, Flask, Face_recognition
+      H/W : raspberry pi, Web cam, Buzzer
+      library : Flask, Face_recognition etc...
+      Cloud Server: AWS
 
 
 cctv를 만들어보자:
 this is a
+ 
+
 
     This
  
