@@ -11,8 +11,7 @@ Ai-CCTV(iot security system)
       
 > 2. 기능
 - Raspberry Pi
-      *asd 
-            +asd
+  -asd
             
       - Real time image(using Flask)
       - Data publishing(Person, Time imformation to aws)
