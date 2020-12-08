@@ -1,7 +1,10 @@
-웹캠, 라즈베리파이, 부저, AWS, Flask, Face_recognition, Flask를 이용한 Ai-CCTV(iot security system)
+Ai-CCTV(iot security system)
 --------
-# 1. 개요
-> 오오
+> 1. 개요
+- 사용 H/W, 라이브러리
+
+     라즈베리파이, 웹캠, 부저, AWS, Flask, Face_recognition
+
 
 cctv를 만들어보자:
 this is a
